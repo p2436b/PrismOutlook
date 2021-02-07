@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PrismOutlook.Core;
+using PrismOutlook.Modules.Contacts.Menus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +17,11 @@ using System.Windows.Shapes;
 
 namespace PrismOutlook.Modules.Contacts.Views
 {
-    /// <summary>
-    /// Interaction logic for ViewA.xaml
-    /// </summary>
-    public partial class ViewA : UserControl
+  /// <summary>
+  /// Interaction logic for ViewA.xaml
+  /// </summary>
+  [DependentView(RegionNames.RibbonRegion, typeof(HomeTab))]
+  public partial class ViewA : UserControl
     {
         public ViewA()
         {

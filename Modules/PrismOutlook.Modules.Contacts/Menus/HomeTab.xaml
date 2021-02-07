@@ -1,13 +1,15 @@
-﻿<ig:RibbonTabItem x:Class="PrismOutlook.Modules.Mail.Menus.HomeTab"
+﻿<ig:RibbonTabItem x:Class="PrismOutlook.Modules.Contacts.Menus.HomeTab"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
 						 xmlns:ig="http://schemas.infragistics.com/xaml/wpf"
-             xmlns:local="clr-namespace:PrismOutlook.Modules.Mail.Menus"
-						 Header="Mail">
+             xmlns:local="clr-namespace:PrismOutlook.Modules.Contacts.Menus"
+									Header="Contacts">
 	<ig:RibbonGroup Caption="New">
 		<ig:ToolHorizontalWrapPanel>
 			<ig:ButtonTool Caption="Button" ig:RibbonGroup.MaximumSize="ImageAndTextLarge">
-				
+
 			</ig:ButtonTool>
 		</ig:ToolHorizontalWrapPanel>
 	</ig:RibbonGroup>
